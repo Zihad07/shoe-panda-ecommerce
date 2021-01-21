@@ -13,13 +13,20 @@ h6 {
     color: #363958;
 }
 
+p {
+    /* line-height: 1.3em; */
+}
+
 .orange {
     color: #FA804C;
 }
 
 .light-gray {
     background-color: #F1F1F1 !important;
-    height: 300px;
+}
+
+.shoes-img {
+    height: 250px;
 }
 
 .custom-btn {
@@ -39,13 +46,37 @@ a {
 
 /* casual-shoes section */
 
-.casual-shoes img {
+.casual-shoes img,
+.formal-shoes img {
     text-align: center;
-    width: 80%;
+    width: 200px;
     padding: 15px 20px;
     transition: .5s ease-in-out;
 }
 
-.casual-shoe-card img:hover {
+.casual-shoe-card img:hover,
+.formal-shoe-card img:hover {
     transform: scale(1.1);
+}
+
+
+/* Service section */
+
+.service-card img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.service-card {
+    border-radius: 8px !important;
+    padding: 1em;
+}
+
+
+/* Responsive For mobile*/
+
+@media (max-width: 768px) {
+    .service-card img {
+        margin-right: 30px;
+    }
 }
