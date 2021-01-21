@@ -1,0 +1,51 @@
+/* utility setpu */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #363958;
+}
+
+.orange {
+    color: #FA804C;
+}
+
+.light-gray {
+    background-color: #F1F1F1 !important;
+    height: 300px;
+}
+
+.custom-btn {
+    background: #3A4ADD;
+    color: #fff;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    display: inline-block;
+}
+
+
+/* casual-shoes section */
+
+.casual-shoes img {
+    text-align: center;
+    width: 80%;
+    padding: 15px 20px;
+    transition: .5s ease-in-out;
+}
+
+.casual-shoe-card img:hover {
+    transform: scale(1.1);
+}
