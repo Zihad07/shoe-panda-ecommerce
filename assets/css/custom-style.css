@@ -13,12 +13,21 @@ h6 {
     color: #363958;
 }
 
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 p {
     /* line-height: 1.3em; */
 }
 
 .orange {
     color: #FA804C;
+}
+
+.bg-color {
+    background-color: #FFF9F4 !important;
 }
 
 .light-gray {
@@ -72,11 +81,60 @@ a {
     padding: 1em;
 }
 
+nav .logo {
+    margin-right: 40%;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-item a {
+    color: #363958 !important;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+nav img {
+    width: 230px;
+}
+
+.banner img {
+    width: 80%;
+}
+
+.banner {
+    height: 100vh;
+    /* text-align: center; */
+}
+
 
 /* Responsive For mobile*/
 
 @media (max-width: 768px) {
     .service-card img {
         margin-right: 30px;
+    }
+    nav img {
+        width: 200px;
+    }
+    nav .logo {
+        margin-right: 0;
+    }
+    .banner-inner-section {
+        flex-direction: column-reverse;
+        padding: 20px 30px;
+        align-items: center;
+        justify-content: center;
+        /* height: 100vh; */
+        /* text-align: center; */
+    }
+    .banner-inner-section img {
+        /* width: 300px; */
+        text-align: center;
+    }
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
